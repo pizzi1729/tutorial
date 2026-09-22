@@ -2,7 +2,7 @@
 import { uppercase } from 'astro:schema';
 import Welcome from '../components/Welcome.astro';
 import Layout from '../layouts/Layout.astro';
-import Navigation from '../components/Navigation.astro';
+import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
 import '../styles/global.css';
 
@@ -30,7 +30,7 @@ const textCase = "uppercase";
 ---
 
 <Layout>
-  <Navigation />
+  <Header />
   <h1>{pageTitle}</h1>
   <h2>... and my new Astro site!</h2>
 
